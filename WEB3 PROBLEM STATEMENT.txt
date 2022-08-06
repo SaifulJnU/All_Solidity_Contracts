@@ -1,0 +1,54 @@
+
+BUET CSE FEST 2022
+
+HACKATHON
+~ WEB3 PROBLEM STATEMENT~
+
+
+
+
+
+
+
+
+
+
+
+Scenario
+Consider you run an online course provider (similar to Coursera). Learners can come to your platform to view online video lectures from accredited universities all around the world. They can complete courses by finishing the lectures, completing corresponding assignments and passing exams. Once they complete a course they will get a certification from the institutions. They can then use this certificate to prove their skill and knowledge to potential employers and further progress their career.
+
+
+Phase-1:
+Now your team has already built such a platform (you don’t need to implement it today) and you want to solve some existing problems of this platform using Web3 technologies. The way you currently issue certificates is that you give the users a link which redirects to an online certificate hosted on your site. Users can use these links in their online portfolios to showcase their certificates and potential employers can verify these certificates. But the problem here is if further down the line your website urls can change which can make the existing certificate links  obsolete. Not to mention that you can go out of business (hopefully not though)! For scenarios like this it would be better if users had complete ownership of their certificates. If anyone wants they should also be able to verify that the certificate is owned by that user and also issued by the proper authority. Participants need to implement such a document issuing & verification system using Smart Contracts and their preferred Web3 technologies. Make sure to handle potential corner cases e.g. users shouldn’t be able to transfer their certificate to other users.
+
+
+Phase-2:
+The next step would be to build a Frontend application for users to interact with. The application will interact with the Smart Contracts you developed and deployed. Make sure your users interact with an application that reads from and writes to the blockchain.
+
+Once you’re done with deploying the application you should focus on other things that will benefit your users. Two interesting features you should try to implement are:
+
+Staking: Learners in MOOCs often register for a bunch of courses but never end up completing them. How about we introduce a scenario where they deposit a certain asset (e.g. ETH) to the system and get it back once they complete the course?
+Badges: Tools and technologies that learners (esp CS students) learn often become obsolete pretty fast. How about we introduce a mechanism for their earned certificates to be valid only for a specific amount of time and if they don’t revisit or progress these skills these certificates will expire?
+Feel free to come up with and implement additional features which can further progress your platform e.g. ways to incorporate real world data to make the system more useful.
+
+
+Participants will receive additional points for:
+
+Adding useful and/or creative features to improve your system
+Automating the deployment and/or testing process (e.g. using Hardhat)
+Incorporating other useful tools and technologies from the Web3 eco-system that they think might be useful
+Following engineering best practices for building the system
+
+
+General Instructions
+
+
+These are some general instructions for participants of any segment:
+
+Participants will need to start a new Github repository onsite and submit it at the end of the competition.
+The project must be developed on the day of the Hackathon. Any project which was developed (even partially) in advance will not be accepted.
+If participants choose to use publicly available code, then they must properly attribute the source.
+Unless otherwise specified, participants can choose their own tech stack.
+
+Any unfair attempts, misbehavior or breach of terms will result in disqualification. The organizers reserve the right to make final decisions. Participants will be notified if there is notable modification in existing rules.
+
