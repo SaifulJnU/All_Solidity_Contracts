@@ -8,7 +8,7 @@ contract Statevariable{
     // generate a getter method means we we access the value of it without 
     // creating any public function
     // it must have to declare inside the conratct and outside the function
-    
+    // These are directly connected with blockchain node
     uint public x;   //default zero
     bool public completed;  //defalut false
     string public str;
